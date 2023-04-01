@@ -5,5 +5,5 @@
 
 long int n_segundos(int n_horas)
 {
-    return n_horas != 0: (n_horas *= 3600): n_horas;
+    return n_horas != 0 ? (n_horas *= 3600) : n_horas;
 }
